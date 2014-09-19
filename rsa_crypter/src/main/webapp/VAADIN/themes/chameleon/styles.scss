@@ -1,0 +1,8 @@
+@import "chameleon.scss";
+.chameleon {
+	@include chameleon;
+}
+
+.v-generated-body {
+  background: #000000;
+}

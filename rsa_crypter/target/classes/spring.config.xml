@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <!--<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>-->
+
+    <bean id="configuration" class="com.vaadin.tutorial.cleverhome.configuration.ConfigurationImpl">
+
+        <property name="variable" value="test"/>
+        <property name="ipAddress" value="test"/>
+        <property name="title" value="Navigation Example"/>
+
+        <property name="controller_ip" value="192.168.1.4"/>
+        <property name="controller_port" value="8083"/>
+
+        <property name="tmpFilePath" value="/tmp/"/>
+        <property name="reqTime" value="1800"/>
+
+    </bean>
+
+
+</beans>

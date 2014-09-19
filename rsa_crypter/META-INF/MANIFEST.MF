@@ -1,0 +1,9 @@
+Manifest-Version: 1.0.0
+Bundle-ManifestVersion: 2
+Bundle-Name: rsa_crypter
+Bundle-SymbolicName: rsa_crypter
+Bundle-Version: 1.0.0
+Import-Package: com.vaadin,
+ org.bouncycastle,
+ javax.crypto,
+ javax.servlet

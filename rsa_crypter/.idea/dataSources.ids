@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="com:vaadin:tutorial:cleverhome:hibernate.cfg.xml" uuid="34132ae1-507a-4358-8cc7-c4e888a4b70e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
